@@ -1,0 +1,193 @@
+.getMoreSection{
+    background-color: #043873;
+    background-image: url(../img/getMoreBack.png);
+    /* background-size: 100% 100%; */
+}
+
+.getMoreBox{
+    background-color: #C4DEFD;
+}
+
+.extension{
+    background-color: #043873;
+}
+
+.useUnderline{
+    bottom: -10px;
+}
+
+
+
+.planMid{
+    width: 100%;
+}
+
+.planTextDiv{
+    width: 100%;
+    height: 40px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/Icon.png);
+    background-size: 100% 100%;
+    float: left;
+}
+
+.iconYellow{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/IconYellow.png);
+    background-size: 100% 100%;
+    float: left;
+}
+
+.planText{
+    width: 85%;
+}
+
+.planBlueDiv{
+    background-color: #043873;
+    width: 32%;
+    float: left;
+    padding-bottom: 70px;
+}
+
+.planDiv{
+    width: 32%;
+    float: left;
+}
+
+.planUnderline{
+    width: 25%;
+}
+
+
+.yourwork{
+    background-image: url(../img/Your-work.png);
+    background-size: cover;
+}
+
+.yourworkheading{
+    font-size: 55px;
+}
+
+.dataLine{
+    width: 50%;
+    right: 30%;
+    bottom: -10px;
+}
+
+.sponsorLine{
+    width: 25%;
+    left: 40%;
+}
+
+.clientUnder{
+    width: 20%;
+    right: 30%;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: #4F9CF9;
+    float: left;
+}
+
+.favorite{
+    background-color: #043873;
+    background-image: url(../img/favoriteBack.png);
+}
+
+footer{
+    background-color: #043873;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width:450px){
+    .projectBack{
+        width: 90%;
+    }
+
+    .yourworkheading{
+        font-size: 40px;
+    }
+
+    .yourworkline{
+        width: 100%;
+    }
+
+    .sponsorLine{
+        width: 60%;
+    }
+
+    .clientUnder{
+        width: 50%;
+        right: 20%;
+        bottom: 0px;
+    }
+
+
+    
+}
+
+@media only screen and (min-width:0px) and (max-width:368px){
+
+    .planBlueDiv, .planDiv{
+        width: 100%;
+        
+    }
+
+    .planBlueDiv{
+        margin-top: 50px
+    }
+
+    .planText{
+        width: 78%;
+    }
+}
+
+
+
+@media only screen and (min-width:367px) and (max-width:769px){
+
+    .planBlueDiv, .planDiv{
+        width: 100%;
+        
+    }
+
+    .planBlueDiv{
+        margin-top: 50px
+    }
+
+    .planText{
+        width: 88%;
+    }
+}
